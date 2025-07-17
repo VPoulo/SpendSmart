@@ -1,0 +1,43 @@
+# Build output
+/bin/
+//obj/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code settings (optional)
+.vscode/
+
+# ASP.NET environment files
+appsettings.Development.json
+appsettings.Production.json
+
+# Dotnet CLI
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Logs
+*.log
+
+# Publish artifacts
+*.publish.xml
+
+# Bundled and minified files
+*.min.js
+*.min.css
+*.map
+
+# Node modules (if used)
+node_modules/
+
+# LibMan (Library Manager) packages
+wwwroot/lib/
+
+# OS files
+.DS_Store
+Thumbs.db
