@@ -11,7 +11,7 @@ SpendSmart/obj/
 # Optional: VS Code settings
 .vscode/
 
-# Ignore dev-only configuration (contains secrets)
+# Ignore dev-only configuration
 SpendSmart/appsettings.Development.json
 
 # Ignore debug-only launch settings (optional — safe to include if working solo)
