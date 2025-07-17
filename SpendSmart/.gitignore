@@ -1,43 +1,27 @@
-# Build output
-/bin/
-//obj/
+# Build output directories
+SpendSmart/bin/
+SpendSmart/obj/
 
-# User-specific files
+# Visual Studio user-specific files
 *.user
-*.rsuser
 *.suo
 *.userosscache
 *.sln.docstates
 
-# Visual Studio Code settings (optional)
+# Optional: VS Code settings
 .vscode/
 
-# ASP.NET environment files
-appsettings.Development.json
-appsettings.Production.json
+# Ignore dev-only configuration (contains secrets)
+SpendSmart/appsettings.Development.json
 
-# Dotnet CLI
-project.lock.json
-project.fragment.lock.json
-artifacts/
+# Ignore debug-only launch settings (optional — safe to include if working solo)
+SpendSmart/Properties/launchSettings.json
+
+# Ignore third-party frontend libraries (LibMan or similar)
+SpendSmart/wwwroot/lib/
 
 # Logs
 *.log
 
-# Publish artifacts
-*.publish.xml
-
-# Bundled and minified files
-*.min.js
-*.min.css
-*.map
-
-# Node modules (if used)
-node_modules/
-
-# LibMan (Library Manager) packages
-wwwroot/lib/
-
-# OS files
-.DS_Store
-Thumbs.db
+# Other common temp/output folders
+artifacts/
